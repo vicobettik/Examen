@@ -26,3 +26,10 @@ Estas tareas te permitirán demostrar una amplia gama de habilidades, incluyendo
 2. Genera la documentación necesaria en el archivo `README.md`.
 
 # ---- SECCIÓN DEL CANDIDATO ------------
+
+**Web API:**
+1. La base de datos fue creada en el localdb por lo que es necesario ejecutar el comando:
+	Update-Database en la consola del administrador de paquetes de visual studio.
+2. Es necesario que la web api sea ejecutada usando el perfil "https".
+3. Al ejecutar el proyecto se abrirá un explorador de internet en el cual pueden observarse los endpoints y probarlos usando swagger.
+4. La interfaz de usuario esta realizada en un proyecto de Angular.
