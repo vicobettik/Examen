@@ -44,6 +44,8 @@ namespace OnlineStore.Models
     {
         public int Id { get; set; }
         public List<CartProduct> Products { get; set; }
+
+        public decimal Total { get; set; }
         public decimal TotalPrice()
         {
             decimal total = 0;

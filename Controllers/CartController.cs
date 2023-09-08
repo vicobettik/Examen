@@ -75,6 +75,7 @@ namespace OnlineStore.Controllers
                     Products = products,
                     Id = cart.Id
                 };
+                order.Total = order.TotalPrice();
                 orders.Add(order);
             }
 
